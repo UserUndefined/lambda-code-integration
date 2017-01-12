@@ -1,0 +1,24 @@
+{
+  "name": "lambda-code-integration",
+  "version": "0.0.1",
+  "description": "A basic AWS Lambda function to test the create, test and deploy project actions of node-lambda.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UserUndefined/lambda-code-integration.git"
+  },
+  "author": "UserUndefined",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UserUndefined/lambda-code-integration/issues"
+  },
+  "homepage": "https://github.com/UserUndefined/lambda-code-integration",
+  "dependencies": {
+    "node-lambda": "^0.8.11"
+  },
+  "scripts": {
+    "setup": "node-lambda setup",
+    "run": "node-lambda run",
+    "deploy": "node-lambda deploy"
+  }
+}
